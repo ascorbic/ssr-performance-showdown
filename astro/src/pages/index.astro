@@ -1,0 +1,78 @@
+---
+const wrapperWidth = 960;
+const wrapperHeight = 720;
+const cellSize = 10;
+const centerX = wrapperWidth / 2;
+const centerY = wrapperHeight / 2;
+
+let idCounter = 0;
+let angle = 0;
+let radius = 0;
+
+const tiles = [];
+const step = cellSize;
+
+let x;
+let y;
+while (radius < Math.min(wrapperWidth, wrapperHeight) / 2) {
+  x = centerX + Math.cos(angle) * radius;
+  y = centerY + Math.sin(angle) * radius;
+
+  if (
+    x >= 0 &&
+    x <= wrapperWidth - cellSize &&
+    y >= 0 &&
+    y <= wrapperHeight - cellSize
+  ) {
+    tiles.push({ x, y, id: idCounter++ });
+  }
+
+  angle += 0.2;
+  radius += step * 0.015;
+}
+---
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div id="wrapper">
+      {
+        tiles.map((tile) => (
+          <div
+            class="tile"
+            style={{
+              left: tile.x + "px",
+              top: tile.y + "px",
+            }}
+          />
+        ))
+      }
+    </div>
+  </body>
+</html>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+  }
+  #wrapper {
+    width: 960px;
+    height: 720px;
+    position: relative;
+    background-color: white;
+  }
+  .tile {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #333;
+  }
+</style>
