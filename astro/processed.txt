@@ -1,0 +1,670 @@
+Statistical profiling result from isolate-0x148008000-49636-v8.log, (8269 ticks, 4403 unaccounted, 0 excluded).
+
+ [Shared libraries]:
+   ticks  total  nonlib   name
+
+ [JavaScript]:
+   ticks  total  nonlib   name
+    518    6.3%    6.3%  JS: *promiseInitHook node:internal/async_hooks:320:25
+    314    3.8%    3.8%  Builtin: KeyedLoadIC_Megamorphic
+    160    1.9%    1.9%  Builtin: RunMicrotasks
+    156    1.9%    1.9%  Builtin: KeyedStoreIC_Megamorphic
+    137    1.7%    1.7%  JS: *promiseBeforeHook node:internal/async_hooks:338:27
+    112    1.4%    1.4%  Builtin: KeyedHasIC_Megamorphic
+    112    1.4%    1.4%  Builtin: CallFunction_ReceiverIsNullOrUndefined
+    105    1.3%    1.3%  JS: *promiseAfterHook node:internal/async_hooks:345:26
+     87    1.1%    1.1%  JS: *write file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1939:10
+     81    1.0%    1.0%  Builtin: FulfillPromise
+     81    1.0%    1.0%  Builtin: AsyncFunctionEnter
+     78    0.9%    0.9%  JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+     76    0.9%    0.9%  JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     72    0.9%    0.9%  Builtin: LoadIC
+     70    0.8%    0.8%  Builtin: AsyncFunctionAwaitUncaught
+     68    0.8%    0.8%  Builtin: RecordWriteSaveFP
+     61    0.7%    0.7%  Builtin: FunctionPrototypeHasInstance
+     58    0.7%    0.7%  Builtin: PromisePrototypeThen
+     57    0.7%    0.7%  Builtin: GetProperty
+     53    0.6%    0.6%  JS: *write file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1371:8
+     52    0.6%    0.6%  Builtin: ArrayPrototypePush
+     50    0.6%    0.6%  Builtin: ResolvePromise
+     47    0.6%    0.6%  JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/base_BoPjX4Ev.mjs:4:32
+     44    0.5%    0.5%  Builtin: TypedArrayPrototypeSet
+     43    0.5%    0.5%  JS: *renderToFinalDestination file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1378:33
+     43    0.5%    0.5%  JS: *_writeRaw node:_http_outgoing:424:19
+     42    0.5%    0.5%  Builtin: ObjectPrototypeHasOwnProperty
+     41    0.5%    0.5%  Builtin: StringAdd_CheckNone
+     41    0.5%    0.5%  Builtin: PerformPromiseThen
+     38    0.5%    0.5%  JS: *stringifyChunk file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1572:24
+     32    0.4%    0.4%  Builtin: StringIndexOf
+     31    0.4%    0.4%  Builtin: ResumeGeneratorTrampoline
+     29    0.4%    0.4%  Builtin: PromiseFulfillReactionJob
+     28    0.3%    0.3%  JS: *writeOrBuffer node:internal/streams/writable:548:23
+     26    0.3%    0.3%  Builtin: KeyedLoadIC
+     26    0.3%    0.3%  Builtin: CreateTypedArray
+     25    0.3%    0.3%  Builtin: RegExpReplace
+     22    0.3%    0.3%  JS: *addAttribute file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1296:22
+     21    0.3%    0.3%  Builtin: StringConstructor
+     21    0.3%    0.3%  Builtin: CallFunction_ReceiverIsNotNullOrUndefined
+     21    0.3%    0.3%  Builtin: AsyncFunctionAwaitResolveClosure
+     20    0.2%    0.2%  JS: *write_ node:_http_outgoing:938:16
+     20    0.2%    0.2%  JS: *next file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1898:15
+     20    0.2%    0.2%  Builtin: Call_ReceiverIsNullOrUndefined
+     19    0.2%    0.2%  JS: *readableStreamDefaultReaderRead node:internal/webstreams/readablestream:2252:41
+     19    0.2%    0.2%  Builtin: InstanceOf
+     15    0.2%    0.2%  Builtin: StringPrototypeToString
+     15    0.2%    0.2%  Builtin: StringPrototypeReplace
+     15    0.2%    0.2%  Builtin: JSBuiltinsConstructStub
+     15    0.2%    0.2%  Builtin: GrowFastSmiOrObjectElements
+     15    0.2%    0.2%  Builtin: ArrayIteratorPrototypeNext
+     14    0.2%    0.2%  JS: *<anonymous> node:internal/webstreams/readablestream:2382:5
+     14    0.2%    0.2%  Builtin: EnqueueMicrotask
+     14    0.2%    0.2%  Builtin: AsyncFunctionAwaitCaught
+     13    0.2%    0.2%  JS: *pull file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:2919:17
+     13    0.2%    0.2%  Builtin: NewPromiseCapability
+     12    0.1%    0.1%  JS: *promiseRejectHandler node:internal/process/promises:183:30
+     12    0.1%    0.1%  JS: *callback node:internal/streams/writable:764:63
+     12    0.1%    0.1%  Builtin: Call_ReceiverIsNotNullOrUndefined
+     12    0.1%    0.1%  Builtin: CEntry_Return1_ArgvOnStack_NoBuiltinExit
+     11    0.1%    0.1%  JS: *writeResponse file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/_@astrojs-ssr-adapter_D-HjPQKp.mjs:2869:29
+     11    0.1%    0.1%  JS: *enqueue node:internal/webstreams/readablestream:1074:10
+     11    0.1%    0.1%  Builtin: PromiseConstructor
+     11    0.1%    0.1%  Builtin: ObjectToString
+     11    0.1%    0.1%  Builtin: CallApiCallbackOptimizedNoProfiling
+     10    0.1%    0.1%  Builtin: NumberPrototypeToString
+     10    0.1%    0.1%  Builtin: AsyncFunctionResolve
+      9    0.1%    0.1%  JS: *readableStreamDefaultControllerCallPullIfNeeded node:internal/webstreams/readablestream:2371:57
+      9    0.1%    0.1%  Builtin: PromiseCapabilityDefaultResolve
+      9    0.1%    0.1%  Builtin: KeyedHasIC
+      9    0.1%    0.1%  Builtin: JSEntry
+      8    0.1%    0.1%  JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1656:36
+      8    0.1%    0.1%  Builtin: CompileLazy
+      7    0.1%    0.1%  RegExp: ^(?:allowfullscreen|async|autofocus|autoplay|controls|default|defer|disabled|disablepictureinpicture|disableremoteplayback|formnovalidate|hidden|loop|nomodule|novalidate|open|playsinline|readonly|required|reversed|scoped|seamless|selected|itemscope)$
+      7    0.1%    0.1%  Builtin: PromiseWithResolvers
+      7    0.1%    0.1%  Builtin: PromiseResolveThenableJob
+      6    0.1%    0.1%  JS: *writevGeneric node:internal/stream_base_commons:121:23
+      6    0.1%    0.1%  Builtin: StoreIC
+      6    0.1%    0.1%  Builtin: KeyedStoreIC
+      6    0.1%    0.1%  Builtin: JSEntryTrampoline
+      6    0.1%    0.1%  Builtin: CallFunction_ReceiverIsAny
+      5    0.1%    0.1%  Builtin: ToString
+      5    0.1%    0.1%  Builtin: LoadICBaseline
+      5    0.1%    0.1%  Builtin: CEntry_Return1_ArgvOnStack_BuiltinExit
+      5    0.1%    0.1%  Builtin: ArrayMap
+      4    0.0%    0.0%  Builtin: ToBooleanForBaselineJump
+      4    0.0%    0.0%  Builtin: StringSlowFlatten
+      4    0.0%    0.0%  Builtin: StrictEqual_Baseline
+      4    0.0%    0.0%  Builtin: LoadIC_NoFeedback
+      4    0.0%    0.0%  Builtin: KeyedLoadIC_PolymorphicName
+      4    0.0%    0.0%  Builtin: GetPropertyWithReceiver
+      4    0.0%    0.0%  Builtin: BaselineLeaveFrame
+      3    0.0%    0.0%  JS: ^serializeKey node:internal/modules/esm/module_map:36:15
+      3    0.0%    0.0%  Builtin: StringAddConvertRight
+      3    0.0%    0.0%  Builtin: ObjectPrototypeToString
+      3    0.0%    0.0%  Builtin: FindNonDefaultConstructorOrConstruct
+      3    0.0%    0.0%  Builtin: CreateShallowObjectLiteral
+      3    0.0%    0.0%  Builtin: Call_ReceiverIsAny
+      3    0.0%    0.0%  Builtin: BitwiseAnd_Baseline
+      3    0.0%    0.0%  Builtin: BaselineOutOfLinePrologue
+      3    0.0%    0.0%  Builtin: ArrayPrototypeShift
+      2    0.0%    0.0%  JS: ^getModuleForRoute file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/_@astrojs-ssr-adapter_D-HjPQKp.mjs:2417:26
+      2    0.0%    0.0%  JS: ^get node:internal/deps/undici/undici:8578:10
+      2    0.0%    0.0%  JS: ^createRequest file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/_@astrojs-ssr-adapter_D-HjPQKp.mjs:2830:23
+      2    0.0%    0.0%  JS: ^create file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/_@astrojs-ssr-adapter_D-HjPQKp.mjs:1807:22
+      2    0.0%    0.0%  JS: *webidl.brandCheck node:internal/deps/undici/undici:3400:33
+      2    0.0%    0.0%  JS: *slowCases node:internal/util:208:19
+      2    0.0%    0.0%  JS: *hasHooks node:internal/async_hooks:470:18
+      2    0.0%    0.0%  JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:536:27
+      2    0.0%    0.0%  Builtin: SubString
+      2    0.0%    0.0%  Builtin: ResumeGeneratorBaseline
+      2    0.0%    0.0%  Builtin: RegExpPrototypeTestFast
+      2    0.0%    0.0%  Builtin: RegExpExecAtom
+      2    0.0%    0.0%  Builtin: PromiseResolve
+      2    0.0%    0.0%  Builtin: ObjectAssign
+      2    0.0%    0.0%  Builtin: LoadICTrampoline
+      2    0.0%    0.0%  Builtin: IterableToListWithSymbolLookup
+      2    0.0%    0.0%  Builtin: FindOrderedHashSetEntry
+      2    0.0%    0.0%  Builtin: FindOrderedHashMapEntry
+      2    0.0%    0.0%  Builtin: DefineNamedOwnIC
+      2    0.0%    0.0%  Builtin: DefineKeyedOwnIC
+      2    0.0%    0.0%  Builtin: Call_ReceiverIsNullOrUndefined_Baseline_Compact
+      2    0.0%    0.0%  Builtin: ArrayIsArray
+      1    0.0%    0.0%  JS: ~<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/base_BoPjX4Ev.mjs:4:32
+      1    0.0%    0.0%  JS: ~<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:536:27
+      1    0.0%    0.0%  JS: ^wrappedFn node:internal/errors:535:21
+      1    0.0%    0.0%  JS: ^webidl.util.ConvertToInt node:internal/deps/undici/undici:3452:40
+      1    0.0%    0.0%  JS: ^webidl.converters.HeadersInit node:internal/deps/undici/undici:8703:45
+      1    0.0%    0.0%  JS: ^validateComponentProps file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1731:32
+      1    0.0%    0.0%  JS: ^toUSVString node:internal/deps/undici/undici:1499:25
+      1    0.0%    0.0%  JS: ^resetBuffer node:internal/streams/writable:364:21
+      1    0.0%    0.0%  JS: ^render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+      1    0.0%    0.0%  JS: ^render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/_@astrojs-ssr-adapter_D-HjPQKp.mjs:2578:15
+      1    0.0%    0.0%  JS: ^removeBase file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/_@astrojs-ssr-adapter_D-HjPQKp.mjs:2509:13
+      1    0.0%    0.0%  JS: ^parserOnMessageComplete node:_http_common:136:33
+      1    0.0%    0.0%  JS: ^parserOnIncoming node:_http_server:1037:26
+      1    0.0%    0.0%  JS: ^onRequest file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/_noop-middleware.mjs:1:19
+      1    0.0%    0.0%  JS: ^onEofChunk node:internal/streams/readable:788:20
+      1    0.0%    0.0%  JS: ^next node:internal/deps/undici/undici:4260:13
+      1    0.0%    0.0%  JS: ^isReadableStreamLike node:internal/deps/undici/undici:4387:34
+      1    0.0%    0.0%  JS: ^isHTTPWhiteSpaceCharCode node:internal/deps/undici/undici:8296:38
+      1    0.0%    0.0%  JS: ^isFormDataLike node:internal/deps/undici/undici:1484:28
+      1    0.0%    0.0%  JS: ^innerOk node:internal/assert/utils:259:17
+      1    0.0%    0.0%  JS: ^initializeResponse node:internal/deps/undici/undici:9035:32
+      1    0.0%    0.0%  JS: ^getTimerDuration node:internal/timers:405:26
+      1    0.0%    0.0%  JS: ^getHighWaterMark node:internal/streams/state:33:26
+      1    0.0%    0.0%  JS: ^get url node:internal/deps/undici/undici:9543:14
+      1    0.0%    0.0%  JS: ^get node:internal/deps/undici/undici:8447:10
+      1    0.0%    0.0%  JS: ^get node:internal/bootstrap/node:100:8
+      1    0.0%    0.0%  JS: ^get href node:internal/url:935:11
+      1    0.0%    0.0%  JS: ^get entriesList node:internal/deps/undici/undici:8467:22
+      1    0.0%    0.0%  JS: ^extractBody node:internal/deps/undici/undici:5231:25
+      1    0.0%    0.0%  JS: ^enqueueValueWithSize node:internal/webstreams/util:145:30
+      1    0.0%    0.0%  JS: ^dequeueValue node:internal/webstreams/util:118:22
+      1    0.0%    0.0%  JS: ^connectionCorkNT node:_http_outgoing:1026:26
+      1    0.0%    0.0%  JS: ^bufferHeadContent file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1866:33
+      1    0.0%    0.0%  JS: ^_finish node:_http_server:231:52
+      1    0.0%    0.0%  JS: ^_enable node:internal/async_local_storage/async_hooks:55:10
+      1    0.0%    0.0%  JS: ^_addHeaderLines node:_http_incoming:244:25
+      1    0.0%    0.0%  JS: ^SafeMap node:internal/per_context/primordials:409:16
+      1    0.0%    0.0%  JS: ^RenderContext file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/_@astrojs-ssr-adapter_D-HjPQKp.mjs:1786:14
+      1    0.0%    0.0%  JS: ^ReadableStreamDefaultController node:internal/webstreams/readablestream:1051:14
+      1    0.0%    0.0%  JS: ^ReadableStream node:internal/webstreams/readablestream:250:14
+      1    0.0%    0.0%  JS: ^Readable.push node:internal/streams/readable:387:35
+      1    0.0%    0.0%  JS: ^<anonymous> node:internal/per_context/primordials:334:21
+      1    0.0%    0.0%  JS: ^<anonymous> node:internal/deps/undici/undici:3556:14
+      1    0.0%    0.0%  JS: ^<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1972:27
+      1    0.0%    0.0%  JS: ^<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/_@astrojs-ssr-adapter_D-HjPQKp.mjs:1099:27
+      1    0.0%    0.0%  JS: ^#getPathnameFromRequest file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/_@astrojs-ssr-adapter_D-HjPQKp.mjs:2515:26
+      1    0.0%    0.0%  JS: *webidl.converters.ByteString node:internal/deps/undici/undici:3657:44
+      1    0.0%    0.0%  JS: *read node:internal/webstreams/readablestream:854:7
+      1    0.0%    0.0%  JS: *noop node:internal/util/debuglog:57:14
+      1    0.0%    0.0%  JS: *markHTMLString file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:540:24
+      1    0.0%    0.0%  JS: *isValidHTTPToken node:internal/deps/undici/undici:1532:30
+      1    0.0%    0.0%  JS: *isHTTPWhiteSpaceCharCode node:internal/deps/undici/undici:8296:38
+      1    0.0%    0.0%  JS: *get node:_http_outgoing:247:16
+      1    0.0%    0.0%  JS: *appendHeader node:internal/deps/undici/undici:8336:26
+      1    0.0%    0.0%  JS: *addListener node:events:610:58
+      1    0.0%    0.0%  JS: *_unrefTimer node:net:511:52
+      1    0.0%    0.0%  JS: *<anonymous> node:internal/util:563:31
+      1    0.0%    0.0%  Builtin: TypedArrayPrototypeToStringTag
+      1    0.0%    0.0%  Builtin: SuspendGeneratorBaseline
+      1    0.0%    0.0%  Builtin: StringToLowerCaseIntl
+      1    0.0%    0.0%  Builtin: StringSubstring
+      1    0.0%    0.0%  Builtin: StringPrototypeStartsWith
+      1    0.0%    0.0%  Builtin: StringPrototypeIncludes
+      1    0.0%    0.0%  Builtin: StringPrototypeCharCodeAt
+      1    0.0%    0.0%  Builtin: StoreInArrayLiteralICBaseline
+      1    0.0%    0.0%  Builtin: StoreIC_NoFeedback
+      1    0.0%    0.0%  Builtin: StoreIC_Megamorphic
+      1    0.0%    0.0%  Builtin: StoreICTrampoline
+      1    0.0%    0.0%  Builtin: SetOrSetIteratorToList
+      1    0.0%    0.0%  Builtin: SetDataProperties
+      1    0.0%    0.0%  Builtin: RegExpPrototypeTest
+      1    0.0%    0.0%  Builtin: ReflectGet
+      1    0.0%    0.0%  Builtin: RecordWriteIgnoreFP
+      1    0.0%    0.0%  Builtin: OrdinaryToPrimitive_Number_Inline
+      1    0.0%    0.0%  Builtin: ObjectFromEntries
+      1    0.0%    0.0%  Builtin: NumberIsNaN
+      1    0.0%    0.0%  Builtin: MathAbs
+      1    0.0%    0.0%  Builtin: MapPrototypeSet
+      1    0.0%    0.0%  Builtin: MapPrototypeDelete
+      1    0.0%    0.0%  Builtin: MapConstructor
+      1    0.0%    0.0%  Builtin: LoadIC_Megamorphic
+      1    0.0%    0.0%  Builtin: LoadGlobalIC
+      1    0.0%    0.0%  Builtin: LessThan_Baseline
+      1    0.0%    0.0%  Builtin: KeyedStoreICTrampoline
+      1    0.0%    0.0%  Builtin: KeyedLoadICTrampoline
+      1    0.0%    0.0%  Builtin: JSConstructStubGeneric
+      1    0.0%    0.0%  Builtin: InterpreterEntryTrampoline
+      1    0.0%    0.0%  Builtin: HandleApiCallOrConstruct
+      1    0.0%    0.0%  Builtin: GetIteratorBaseline
+      1    0.0%    0.0%  Builtin: FastNewStrictArguments
+      1    0.0%    0.0%  Builtin: FastNewObject
+      1    0.0%    0.0%  Builtin: DivideSmi_Baseline
+      1    0.0%    0.0%  Builtin: DefineNamedOwnIC_NoFeedback
+      1    0.0%    0.0%  Builtin: DefineNamedOwnICBaseline
+      1    0.0%    0.0%  Builtin: Construct_Baseline
+      1    0.0%    0.0%  Builtin: Construct
+      1    0.0%    0.0%  Builtin: Call_ReceiverIsNotNullOrUndefined_Baseline_Compact
+      1    0.0%    0.0%  Builtin: CallForwardVarargs
+      1    0.0%    0.0%  Builtin: BooleanConstructor
+      1    0.0%    0.0%  Builtin: ArraySome
+      1    0.0%    0.0%  Builtin: ArrayPrototypeFind
+
+ [C++]:
+   ticks  total  nonlib   name
+
+ [Summary]:
+   ticks  total  nonlib   name
+   3866   46.8%   46.8%  JavaScript
+      0    0.0%    0.0%  C++
+   1247   15.1%   15.1%  GC
+      0    0.0%          Shared libraries
+   4403   53.2%          Unaccounted
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+   4403   53.2%  UNKNOWN
+   1327   30.1%    JS: *write file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1939:10
+   1324   99.8%      JS: *write file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1371:8
+   1320   99.7%        JS: *write file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1371:8
+   1320  100.0%          JS: *renderToFinalDestination file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1378:33
+   1320  100.0%            JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+    420    9.5%    Builtin: PromiseCapabilityDefaultResolve
+    415   98.8%      JS: *write file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1939:10
+    415  100.0%        JS: *write file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1371:8
+    412   99.3%          JS: *write file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1371:8
+    412  100.0%            JS: *renderToFinalDestination file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1378:33
+    314    7.1%    JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/base_BoPjX4Ev.mjs:4:32
+    314  100.0%      JS: ^fn file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:410:14
+    313   99.7%        JS: ^init file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1711:13
+    313  100.0%          JS: ^render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1722:15
+    312   99.7%            JS: ^render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:2690:17
+    282    6.4%    JS: *writevGeneric node:internal/stream_base_commons:121:23
+    282  100.0%      JS: ^Socket._writeGeneric node:net:927:42
+    282  100.0%        JS: ^Socket._writev node:net:964:36
+    282  100.0%          JS: ^doWrite node:internal/streams/writable:587:17
+    282  100.0%            JS: ^clearBuffer node:internal/streams/writable:744:21
+    214    4.9%    JS: *next file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1898:15
+    214  100.0%      Builtin: AsyncFunctionAwaitResolveClosure
+     95    2.2%    JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+     93   97.9%      JS: ^requireBuiltin node:internal/bootstrap/realm:421:24
+     20   21.5%        JS: ~lazyUndici node:http:122:20
+     20  100.0%          JS: ~get node:http:177:6
+     20  100.0%            Builtin: ReflectGet
+      5    5.4%        JS: ~<anonymous> node:internal/streams/duplex:1:1
+      5  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+      5  100.0%            JS: ^requireBuiltin node:internal/bootstrap/realm:421:24
+      5    5.4%        JS: ~<anonymous> node:http:1:1
+      5  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+      5  100.0%            JS: ~compileForPublicLoader node:internal/bootstrap/realm:332:25
+      5    5.4%        JS: ~<anonymous> node:http2:1:1
+      5  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+      5  100.0%            JS: ^requireBuiltin node:internal/bootstrap/realm:421:24
+      4    4.3%        JS: ~<anonymous> node:crypto:1:1
+      4  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+      4  100.0%            JS: ~compileForPublicLoader node:internal/bootstrap/realm:332:25
+      4    4.3%        JS: ^get node:internal/util:631:17
+      3   75.0%          Builtin: CEntry_Return1_ArgvOnStack_NoBuiltinExit
+      3  100.0%            JS: ~lib/web/fetch/response.js node:internal/deps/undici/undici:8739:30
+      1   25.0%          Builtin: ReflectGet
+      1  100.0%            JS: ^getOwn node:internal/bootstrap/realm:205:16
+      3    3.2%        JS: ~<anonymous> node:perf_hooks:1:1
+      3  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+      3  100.0%            JS: ^requireBuiltin node:internal/bootstrap/realm:421:24
+      3    3.2%        JS: ~<anonymous> node:internal/webstreams/readablestream:1:1
+      3  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+      3  100.0%            JS: ^requireBuiltin node:internal/bootstrap/realm:421:24
+      2    2.2%        JS: ~getSource node:internal/modules/esm/load:38:25
+      2  100.0%          JS: ~defaultLoad node:internal/modules/esm/load:89:27
+      2  100.0%            JS: ~load node:internal/modules/esm/loader:566:13
+      2    2.2%        JS: ~asyncRunEntryPointWithESMLoader node:internal/modules/run_main:105:47
+      2  100.0%          JS: ~runEntryPointWithESMLoader node:internal/modules/run_main:138:36
+      2  100.0%            JS: ~executeUserEntryPoint node:internal/modules/run_main:157:31
+      2    2.2%        JS: ~<anonymous> node:tls:1:1
+      2  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+      2  100.0%            JS: ^requireBuiltin node:internal/bootstrap/realm:421:24
+      2    2.2%        JS: ~<anonymous> node:internal/fs/promises:1:1
+      2  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+      2  100.0%            JS: ^requireBuiltin node:internal/bootstrap/realm:421:24
+      2    2.2%        JS: ~<anonymous> node:internal/cluster/primary:1:1
+      2  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+      2  100.0%            JS: ^requireBuiltin node:internal/bootstrap/realm:421:24
+      2    2.2%        JS: ~<anonymous> node:_http_agent:1:1
+      2  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+      2  100.0%            JS: ^requireBuiltin node:internal/bootstrap/realm:421:24
+      1    1.1%        JS: ~requireWithFallbackInDeps node:internal/bootstrap/realm:435:35
+      1  100.0%          JS: ~lib/dispatcher/client.js node:internal/deps/undici/undici:7252:29
+      1  100.0%            JS: ~__require node:internal/deps/undici/undici:5:49
+      1    1.1%        JS: ~newResolveCache node:internal/modules/esm/loader:56:25
+      1  100.0%          JS: ~ModuleLoader node:internal/modules/esm/loader:108:20
+      1  100.0%            JS: ~ModuleLoader node:internal/modules/esm/loader:147:14
+      1    1.1%        JS: ~lookupAndListen node:net:2156:25
+      1  100.0%          JS: ~Server.listen node:net:2006:35
+      1  100.0%            JS: ~standalone file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/_@astrojs-ssr-adapter_D-HjPQKp.mjs:10519:20
+      1    1.1%        JS: ~lazyWebCrypto node:crypto:125:23
+      1  100.0%          JS: ~get node:crypto:350:8
+      1  100.0%            Builtin: ReflectGet
+      1    1.1%        JS: ~lazyLoadStreams node:fs:3049:25
+      1  100.0%          JS: ~get ReadStream node:fs:3230:17
+      1  100.0%            Builtin: ReflectGet
+      1    1.1%        JS: ~importKey node:internal/crypto/webcrypto:573:25
+      1  100.0%          JS: ~decodeKey file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:2216:25
+      1  100.0%            JS: ~deserializeManifest file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/manifest_D8V3d-mI.mjs:62:29
+      1    1.1%        JS: ~defaultResolve node:internal/modules/esm/loader:547:17
+      1  100.0%          JS: ~resolve node:internal/modules/esm/loader:515:10
+      1  100.0%            JS: ~getModuleJob node:internal/modules/esm/loader:245:21
+      1    1.1%        JS: ~<anonymous> node:worker_threads:1:1
+      1  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+      1  100.0%            JS: ^requireBuiltin node:internal/bootstrap/realm:421:24
+      1    1.1%        JS: ~<anonymous> node:tty:1:1
+      1  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+      1  100.0%            JS: ^requireBuiltin node:internal/bootstrap/realm:421:24
+      1    1.1%        JS: ~<anonymous> node:stream:1:1
+      1  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+      1  100.0%            JS: ^requireBuiltin node:internal/bootstrap/realm:421:24
+      1    1.1%        JS: ~<anonymous> node:net:1:1
+      1  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+      1  100.0%            JS: ^requireBuiltin node:internal/bootstrap/realm:421:24
+      1    1.1%        JS: ~<anonymous> node:internal/streams/operators:1:1
+      1  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+      1  100.0%            JS: ^requireBuiltin node:internal/bootstrap/realm:421:24
+      1    1.1%        JS: ~<anonymous> node:internal/streams/lazy_transform:1:1
+      1  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+      1  100.0%            JS: ^requireBuiltin node:internal/bootstrap/realm:421:24
+      1    1.1%        JS: ~<anonymous> node:internal/streams/compose:1:1
+      1  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+      1  100.0%            JS: ^requireBuiltin node:internal/bootstrap/realm:421:24
+      1    1.1%        JS: ~<anonymous> node:internal/readline/interface:1:1
+      1  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+      1  100.0%            JS: ^requireBuiltin node:internal/bootstrap/realm:421:24
+      1    1.1%        JS: ~<anonymous> node:internal/modules/esm/load:1:1
+      1  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+      1  100.0%            JS: ^requireBuiltin node:internal/bootstrap/realm:421:24
+      1    1.1%        JS: ~<anonymous> node:internal/http2/core:1:1
+      1  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+      1  100.0%            JS: ^requireBuiltin node:internal/bootstrap/realm:421:24
+      1    1.1%        JS: ~<anonymous> node:internal/http2/compat:1:1
+      1  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+      1  100.0%            JS: ^requireBuiltin node:internal/bootstrap/realm:421:24
+      1    1.1%        JS: ~<anonymous> node:internal/crypto/pbkdf2:1:1
+      1  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+      1  100.0%            JS: ^requireBuiltin node:internal/bootstrap/realm:421:24
+      1    1.1%        JS: ~<anonymous> node:internal/crypto/hkdf:1:1
+      1  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+      1  100.0%            JS: ^requireBuiltin node:internal/bootstrap/realm:421:24
+      1    1.1%        JS: ~<anonymous> node:internal/child_process:1:1
+      1  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+      1  100.0%            JS: ^requireBuiltin node:internal/bootstrap/realm:421:24
+      1    1.1%        JS: ~<anonymous> node:internal/blocklist:1:1
+      1  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+      1  100.0%            JS: ^requireBuiltin node:internal/bootstrap/realm:421:24
+      1    1.1%        JS: ~<anonymous> node:internal/assert/assertion_error:1:1
+      1  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+      1  100.0%            JS: ^requireBuiltin node:internal/bootstrap/realm:421:24
+      1    1.1%        JS: ~<anonymous> node:dgram:1:1
+      1  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+      1  100.0%            JS: ^requireBuiltin node:internal/bootstrap/realm:421:24
+      1    1.1%        JS: ~<anonymous> node:cluster:1:1
+      1  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+      1  100.0%            JS: ^requireBuiltin node:internal/bootstrap/realm:421:24
+      1    1.1%        JS: ~<anonymous> node:child_process:1:1
+      1  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+      1  100.0%            JS: ^requireBuiltin node:internal/bootstrap/realm:421:24
+      1    1.1%        JS: ~<anonymous> node:assert:1:1
+      1  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+      1  100.0%            JS: ^requireBuiltin node:internal/bootstrap/realm:421:24
+      1    1.1%        JS: ~<anonymous> node:_tls_common:1:1
+      1  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+      1  100.0%            JS: ^requireBuiltin node:internal/bootstrap/realm:421:24
+      1    1.1%        JS: ~<anonymous> node:_http_common:1:1
+      1  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+      1  100.0%            JS: ^requireBuiltin node:internal/bootstrap/realm:421:24
+      1    1.1%        JS: ~<anonymous> node:_http_client:1:1
+      1  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/realm:384:27
+      1  100.0%            JS: ^requireBuiltin node:internal/bootstrap/realm:421:24
+      1    1.1%        JS: ~#createModuleJob node:internal/modules/esm/loader:429:19
+      1  100.0%          JS: ~getJobFromResolveResult node:internal/modules/esm/loader:255:26
+      1  100.0%            JS: ~getModuleJob node:internal/modules/esm/loader:245:21
+      1    1.1%        JS: ^requireWithFallbackInDeps node:internal/bootstrap/realm:435:35
+      1  100.0%          JS: ~lib/web/fetch/util.js node:internal/deps/undici/undici:3791:26
+      1  100.0%            JS: ^__require node:internal/deps/undici/undici:5:49
+      2    2.1%      JS: ~compileForPublicLoader node:internal/bootstrap/realm:332:25
+      2  100.0%        JS: ~loadBuiltinModule node:internal/modules/helpers:100:27
+      2  100.0%          JS: ~builtinStrategy node:internal/modules/esm/translators:416:52
+      2  100.0%            JS: ~callTranslator node:internal/modules/esm/loader:430:28
+     53    1.2%    JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     53  100.0%      JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+     53  100.0%        JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     52   98.1%          JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1656:36
+     52  100.0%            JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+      1    1.9%          JS: ^render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1722:15
+      1  100.0%            Builtin: AsyncFunctionAwaitResolveClosure
+
+    518    6.3%  JS: *promiseInitHook node:internal/async_hooks:320:25
+    114   22.0%    JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+    114  100.0%      JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+    114  100.0%        JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1656:36
+    114  100.0%          JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+    114  100.0%            JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+    109   21.0%    JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     48   44.0%      JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1656:36
+     48  100.0%        JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     48  100.0%          JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+     48  100.0%            JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     33   30.3%      Builtin: AsyncFunctionAwaitResolveClosure
+     26   23.9%      JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+     26  100.0%        JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     26  100.0%          JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1656:36
+     26  100.0%            JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+      2    1.8%      JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1469:45
+      2  100.0%        Builtin: ArrayMap
+      2  100.0%          JS: ~render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+      2  100.0%            JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     91   17.6%    Builtin: PromisePrototypeThen
+     36   39.6%      JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+     36  100.0%        JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     36  100.0%          JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1656:36
+     36  100.0%            JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     19   20.9%      JS: *<anonymous> node:internal/webstreams/readablestream:2382:5
+     19   20.9%      JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1656:36
+     19  100.0%        JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     19  100.0%          JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+     19  100.0%            JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     81   15.6%    JS: *renderToFinalDestination file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1378:33
+     80   98.8%      JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     80  100.0%        Builtin: AsyncFunctionAwaitResolveClosure
+      1    1.2%      JS: ~render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+      1  100.0%        JS: ^renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+      1  100.0%          JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1656:36
+      1  100.0%            Builtin: ArrayMap
+     59   11.4%    JS: *pull file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:2919:17
+     59  100.0%      JS: *<anonymous> node:internal/webstreams/readablestream:2382:5
+     16    3.1%    JS: *writeResponse file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/_@astrojs-ssr-adapter_D-HjPQKp.mjs:2869:29
+     16  100.0%      Builtin: AsyncFunctionAwaitResolveClosure
+     16    3.1%    JS: *<anonymous> node:internal/webstreams/readablestream:2382:5
+     15    2.9%    Builtin: PromiseConstructor
+     14   93.3%      JS: *writeResponse file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/_@astrojs-ssr-adapter_D-HjPQKp.mjs:2869:29
+     14  100.0%        Builtin: AsyncFunctionAwaitResolveClosure
+      1    6.7%      JS: *read node:internal/webstreams/readablestream:854:7
+      1  100.0%        JS: ~writeResponse file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/_@astrojs-ssr-adapter_D-HjPQKp.mjs:2869:29
+      1  100.0%          Builtin: AsyncFunctionAwaitResolveClosure
+     10    1.9%    Builtin: PromiseWithResolvers
+     10  100.0%      JS: *next file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1898:15
+     10  100.0%        Builtin: AsyncFunctionAwaitResolveClosure
+
+    314    3.8%  Builtin: KeyedLoadIC_Megamorphic
+     67   21.3%    JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     35   52.2%      JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1656:36
+     35  100.0%        JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     35  100.0%          JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+     35  100.0%            JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     18   26.9%      Builtin: AsyncFunctionAwaitResolveClosure
+     14   20.9%      JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+     14  100.0%        JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     14  100.0%          JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1656:36
+     14  100.0%            JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     63   20.1%    JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+     63  100.0%      JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     63  100.0%        JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1656:36
+     63  100.0%          JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     63  100.0%            JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+     53   16.9%    JS: *promiseInitHook node:internal/async_hooks:320:25
+     12   22.6%      JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+     12  100.0%        JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     12  100.0%          JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1656:36
+     12  100.0%            JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     11   20.8%      JS: *pull file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:2919:17
+     11  100.0%        JS: *<anonymous> node:internal/webstreams/readablestream:2382:5
+     10   18.9%      JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+      7   70.0%        JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1656:36
+      7  100.0%          JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+      7  100.0%            JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+      2   20.0%        Builtin: AsyncFunctionAwaitResolveClosure
+      1   10.0%        JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+      1  100.0%          JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+      1  100.0%            JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1656:36
+      9   17.0%      Builtin: PromisePrototypeThen
+      4   44.4%        JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1656:36
+      4  100.0%          JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+      4  100.0%            JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+      2   22.2%        JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+      2  100.0%          JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+      2  100.0%            JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1656:36
+      2   22.2%        JS: *<anonymous> node:internal/webstreams/readablestream:2382:5
+      1   11.1%        JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1469:45
+      1  100.0%          Builtin: ArrayMap
+      1  100.0%            JS: ~render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+      3    5.7%      JS: *renderToFinalDestination file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1378:33
+      3  100.0%        JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+      3  100.0%          Builtin: AsyncFunctionAwaitResolveClosure
+      3    5.7%      JS: *<anonymous> node:internal/webstreams/readablestream:2382:5
+      3    5.7%      Builtin: PromiseWithResolvers
+      3  100.0%        JS: *next file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1898:15
+      3  100.0%          Builtin: AsyncFunctionAwaitResolveClosure
+      2    3.8%      Builtin: PromiseConstructor
+      2  100.0%        JS: *writeResponse file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/_@astrojs-ssr-adapter_D-HjPQKp.mjs:2869:29
+      2  100.0%          Builtin: AsyncFunctionAwaitResolveClosure
+     43   13.7%    Builtin: PromisePrototypeThen
+     14   32.6%      JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+     14  100.0%        JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     14  100.0%          JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1656:36
+     14  100.0%            JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     13   30.2%      JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1656:36
+     13  100.0%        JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     13  100.0%          JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+     13  100.0%            JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+      6   14.0%      JS: *<anonymous> node:internal/webstreams/readablestream:2382:5
+     29    9.2%    JS: *pull file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:2919:17
+     29  100.0%      JS: *<anonymous> node:internal/webstreams/readablestream:2382:5
+     22    7.0%    JS: *renderToFinalDestination file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1378:33
+     22  100.0%      JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     22  100.0%        Builtin: AsyncFunctionAwaitResolveClosure
+     13    4.1%    Builtin: PromiseConstructor
+     13  100.0%      JS: *writeResponse file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/_@astrojs-ssr-adapter_D-HjPQKp.mjs:2869:29
+     13  100.0%        Builtin: AsyncFunctionAwaitResolveClosure
+      7    2.2%    JS: *<anonymous> node:internal/webstreams/readablestream:2382:5
+      7    2.2%    Builtin: PromiseWithResolvers
+      7  100.0%      JS: *next file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1898:15
+      7  100.0%        Builtin: AsyncFunctionAwaitResolveClosure
+      6    1.9%    JS: *writeResponse file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/_@astrojs-ssr-adapter_D-HjPQKp.mjs:2869:29
+      6  100.0%      Builtin: AsyncFunctionAwaitResolveClosure
+
+    160    1.9%  Builtin: RunMicrotasks
+
+    156    1.9%  Builtin: KeyedStoreIC_Megamorphic
+    153   98.1%    JS: *promiseInitHook node:internal/async_hooks:320:25
+     39   25.5%      JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+     39  100.0%        JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     39  100.0%          JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1656:36
+     39  100.0%            JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     37   24.2%      JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     16   43.2%        JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1656:36
+     16  100.0%          JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     16  100.0%            JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+     11   29.7%        JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+     11  100.0%          JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     11  100.0%            JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1656:36
+     10   27.0%        Builtin: AsyncFunctionAwaitResolveClosure
+     25   16.3%      Builtin: PromisePrototypeThen
+     10   40.0%        JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1656:36
+     10  100.0%          JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     10  100.0%            JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+      8   32.0%        JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+      8  100.0%          JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+      8  100.0%            JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1656:36
+      2    8.0%        JS: *<anonymous> node:internal/webstreams/readablestream:2382:5
+      1    4.0%        JS: *renderToBufferDestination file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1386:35
+      1  100.0%          JS: ^<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1469:45
+      1  100.0%            Builtin: ArrayMap
+     17   11.1%      JS: *renderToFinalDestination file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1378:33
+     16   94.1%        JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     16  100.0%          Builtin: AsyncFunctionAwaitResolveClosure
+      1    5.9%        JS: ~render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+      1  100.0%          JS: ^renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+      1  100.0%            JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1656:36
+     13    8.5%      JS: *pull file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:2919:17
+     13  100.0%        JS: *<anonymous> node:internal/webstreams/readablestream:2382:5
+      7    4.6%      JS: *writeResponse file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/_@astrojs-ssr-adapter_D-HjPQKp.mjs:2869:29
+      7  100.0%        Builtin: AsyncFunctionAwaitResolveClosure
+      7    4.6%      JS: *<anonymous> node:internal/webstreams/readablestream:2382:5
+      5    3.3%      Builtin: PromiseWithResolvers
+      5  100.0%        JS: *next file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1898:15
+      5  100.0%          Builtin: AsyncFunctionAwaitResolveClosure
+      2    1.3%      Builtin: PromiseConstructor
+      2  100.0%        JS: *writeResponse file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/_@astrojs-ssr-adapter_D-HjPQKp.mjs:2869:29
+      2  100.0%          Builtin: AsyncFunctionAwaitResolveClosure
+
+    137    1.7%  JS: *promiseBeforeHook node:internal/async_hooks:338:27
+
+    112    1.4%  Builtin: KeyedHasIC_Megamorphic
+     50   44.6%    JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+     50  100.0%      JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     50  100.0%        JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1656:36
+     50  100.0%          JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     50  100.0%            JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+     35   31.3%    JS: ^fn file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:410:14
+     35  100.0%      JS: ^init file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1711:13
+     35  100.0%        JS: ^render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1722:15
+     35  100.0%          JS: ^render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:2690:17
+     35  100.0%            JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     22   19.6%    JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1656:36
+     22  100.0%      JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     22  100.0%        JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+     22  100.0%          JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     22  100.0%            JS: ^render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1722:15
+      4    3.6%    JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+      3   75.0%      JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+      3  100.0%        JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+      3  100.0%          JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1656:36
+      3  100.0%            JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+      1   25.0%      JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1656:36
+      1  100.0%        JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+      1  100.0%          JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+      1  100.0%            JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+
+    112    1.4%  Builtin: CallFunction_ReceiverIsNullOrUndefined
+     17   15.2%    JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+     17  100.0%      JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     17  100.0%        JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1656:36
+     17  100.0%          JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     17  100.0%            JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+     12   10.7%    JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+      5   41.7%      JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+      5  100.0%        JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+      5  100.0%          JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1656:36
+      5  100.0%            JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+      5   41.7%      JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1656:36
+      5  100.0%        JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+      5  100.0%          JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+      5  100.0%            JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+      2   16.7%      Builtin: AsyncFunctionAwaitResolveClosure
+      5    4.5%    JS: *pull file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:2919:17
+      5  100.0%      JS: *<anonymous> node:internal/webstreams/readablestream:2382:5
+      4    3.6%    JS: *<anonymous> node:internal/webstreams/readablestream:2382:5
+      3    2.7%    JS: *writeResponse file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/_@astrojs-ssr-adapter_D-HjPQKp.mjs:2869:29
+      3  100.0%      Builtin: AsyncFunctionAwaitResolveClosure
+      2    1.8%    JS: *<anonymous> file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1656:36
+      2  100.0%      JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+      2  100.0%        JS: *render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1468:15
+      2  100.0%          JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+      2  100.0%            JS: ^render file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1722:15
+
+    105    1.3%  JS: *promiseAfterHook node:internal/async_hooks:345:26
+
+     87    1.1%  JS: *write file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1939:10
+     87  100.0%    JS: *write file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1371:8
+     80   92.0%      JS: *write file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1371:8
+     80  100.0%        JS: *renderToFinalDestination file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1378:33
+     80  100.0%          JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+     80  100.0%            Builtin: AsyncFunctionAwaitResolveClosure
+      7    8.0%      JS: *renderToFinalDestination file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1378:33
+      7  100.0%        JS: *renderChild file:///Users/matt/Repos/ssr-performance-showdown/astro/dist/server/chunks/astro/server_CRlOOVoI.mjs:1647:27
+      7  100.0%          Builtin: AsyncFunctionAwaitResolveClosure
+
